@@ -134,6 +134,10 @@ hr { display: block; height: 1px;
     letter-spacing: .5px;
 }
 
+button{
+    cursor:pointer;
+}
+
 
 
 
