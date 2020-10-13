@@ -117,6 +117,7 @@ input{
     width: 200px;
     font-size: .7rem;
     letter-spacing: .5px;
+    cursor:pointer;
 }
 
 /*Changing the color of an hr element */
@@ -133,11 +134,6 @@ hr { display: block; height: 1px;
     font-size: .7rem;
     letter-spacing: .5px;
 }
-
-button{
-    cursor:pointer;
-}
-
 
 
 
