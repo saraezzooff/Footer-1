@@ -1,0 +1,139 @@
+/*https://uidesigndaily.com/posts/sketch-footer-ui-design-newsletter-links-day-1195
+*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+/* global */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Display in the middle of screen */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('../img/27057.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 14px;
+    color: #333;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    background-color: #fff;
+
+
+}
+
+/* Top Section */
+
+
+.top{
+    display: flex;
+    padding: 50px;
+}
+
+.top-column{
+    margin-left: 50px;
+}
+
+.top-column ul{
+    list-style-type: none;
+}
+
+.top-column ul li {
+    padding: 5px 0;
+    font-size: .9rem;
+}
+
+.top-column ul li p{
+    font-size: .9rem;
+    margin-bottom: 10px;
+    line-height: 1.2rem;
+}
+
+strong{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.top-column ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.top-column ul li a:hover{
+    color: #8BB7E6;
+}
+
+/* place the icon inside the input */
+.input-icon{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+  }
+input{
+    padding-left: 17px;
+  }
+.input-wrapper{
+    position: relative;
+  }
+.fa-envelope{
+    color: #8BB7E6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#56CCF2), to(#5b86e5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3rem;
+}
+.btn-input{
+    width: 180px;
+}
+.top-column input{
+    padding: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.top-column input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 40px;
+    font-size: .7rem;
+}
+.top-column button{
+    outline: none;
+    border: none;
+    padding: 10px;
+    background: linear-gradient(to right, #56CCF2, #5b86e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    height: 40px;
+    border-radius: 5px;
+    width: 200px;
+    font-size: .7rem;
+    letter-spacing: .5px;
+}
+
+/*Changing the color of an hr element */
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #eee;
+    margin: 1em 0; padding: 0; }
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 40px 50px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: .7rem;
+    letter-spacing: .5px;
+}
+
+
+
+
