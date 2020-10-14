@@ -72,11 +72,13 @@ strong{
     color: #8BB7E6;
 }
 
+
+
 /* place the icon inside the input */
 .input-icon{
     position: absolute;
     left: 20px;
-    top: 10px;
+    top: 10px; 
   }
 input{
     padding-left: 17px;
@@ -85,17 +87,21 @@ input{
     position: relative;
   }
 .fa-envelope{
+    
     color: #8BB7E6;
     background: -webkit-gradient(linear, left top, left bottom, from(#56CCF2), to(#5b86e5));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.3rem;
+   
 }
+
 .btn-input{
     width: 180px;
 }
 .top-column input{
     padding: 10px;
+    padding-left: 45px;
     border: 1px solid #eeeeee;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -103,8 +109,16 @@ input{
 
 .top-column input::placeholder{
     color: rgba(0, 0, 0, 0.5);
-    padding-left: 40px;
+    padding-left: 5px;
     font-size: .7rem;
+}
+
+.top-column input:focus{
+    outline: none;
+}
+
+.top-column input:focus .fa-envelope{
+    display: none;
 }
 .top-column button{
     outline: none;
@@ -117,13 +131,15 @@ input{
     width: 200px;
     font-size: .7rem;
     letter-spacing: .5px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /*Changing the color of an hr element */
-hr { display: block; height: 1px;
+hr {
+     display: block; height: 1px;
     border: 0; border-top: 1px solid #eee;
-    margin: 1em 0; padding: 0; }
+    margin: 1em 0; padding: 0; 
+}
 
 
 .bottom{
@@ -134,6 +150,21 @@ hr { display: block; height: 1px;
     font-size: .7rem;
     letter-spacing: .5px;
 }
+.bottom a{
+    text-decoration: none;
+    color: hsl(229, 6%, 66%);
+    font-weight: 600;
+}
 
+.bottom a:hover{
+    color: #8BB7E6;
+}
 
+.bottom ul {
+    list-style: none;
+    display: flex;
+}
 
+.bottom ul li{
+    padding-left: 3px;
+}
